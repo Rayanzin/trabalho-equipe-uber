@@ -1,0 +1,39 @@
+footer{
+    padding:40px 40px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+#central-ajuda{
+    gap: 80%;
+    display: flex;
+}
+.menu, a{
+    color: #ffffff;
+}
+.menu{
+    display: flex;
+}
+#endereco{
+    width: 200px;
+    
+}
+.titulo{
+    text-decoration: none;
+}
+#help:hover{
+    border-bottom: 2px solid #ffffff;
+    width: 16%;
+}
+#help>a>p{
+margin-bottom: 30px;
+}
+    
+.gap{
+    gap: 20px;
+}
