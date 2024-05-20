@@ -3,7 +3,20 @@
     grid-column-gap: 100px;
     display: flex;
     padding: 0px 110px;
-    margin-top: 50px;
+    margin-top: 52px;
+
+}
+
+
+
+.img2 {
+    grid-column-gap: 100px;
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 105px;
+    margin-bottom: 200px;
+    padding: 0px 100px;
+    margin-top: 120.5px;
 
 }
 
@@ -12,17 +25,6 @@
     height: 256px;
     font-size: 22px;
     align-items: center;
-}
-
-.img2 {
-    grid-column-gap: 100px;
-    flex-direction: row-reverse ;
-    display: flex;
-    gap: 100px;
-    margin-bottom: 100px;
-    padding: 0px 110px;
-    margin-top: 100px;
-    
 }
 
 .legenda2 {
@@ -34,21 +36,59 @@
 
 .botao {
     border-radius: 8px;
-    width: 140px;
+    width: 119px;
     height: 48px;
-    background:#000000;
+    background: #000000;
     color: #FFFFFF;
     margin: 12px 0px 0px;
-    font: 20px Arial;
+    font: 17px Arial;
     padding: 10px 10px;
+    cursor: pointer;
 }
 
-.pergunta{
+.botao:hover {
+     background-color: #000000b5;
+    transition-duration: 200ms;
+}
+
+.pergunta {
     display: flex;
     gap: 30px;
 }
 
-.linha{
-  padding: 20px 0px;
-  
+.linha {
+    padding: 25px 0px 0px 0px;
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.fonte {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #000000;
+}
+
+.fonte1 {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #333333;
+}
+
+.p1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+.p2{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: #333333; 
 }
