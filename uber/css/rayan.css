@@ -1,1 +1,98 @@
 @charset "utf-8";
+
+header{
+    background-color: black;
+}
+#nav-principal{
+    width: 100%;
+    background-color: black;
+}
+#nav-principal>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#nav-principal> ul > li{
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+#nav-principal>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#ulgap{
+    gap: 10px;
+}
+#logo{
+    width: 50px;
+    height: 30px;
+    display: inline;
+}
+#dropdownbg{
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+}
+#dropdownbg:hover{
+    background-color: gray;
+}
+
+.lihover{
+    border-radius: 30px;
+}
+.lihover:hover{
+    background-color: gray;
+    transition: .5s;
+}
+#pt-br{
+    margin-left: 32%;
+}
+.cadastre-se{
+    background-color: white;
+    border-radius: 30px;
+}
+#cadastre-se{
+    color: black !important;
+}
+#head{
+    display: flex;
+    margin-top: 80px;
+}
+#head>img{
+    width: 558px;
+    height: 558px;
+}
+form{
+    width: 50%;
+    padding: 60px;
+    color: white;
+}
+form h2{
+    font-size: 52px;
+    font-weight: bold;
+    width: 390px;
+    margin-bottom: 20px;
+}
+
+form input{
+    display: block;
+    width: 80%;
+    padding:12px 12px 12px 36px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+form button{
+    padding: 12px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    font-weight: 500;
+}
+form button:hover{
+    background-color: rgb(234, 234, 234);
+    transition: .5s;
+}
