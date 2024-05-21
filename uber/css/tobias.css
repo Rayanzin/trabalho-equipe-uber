@@ -69,7 +69,6 @@ margin: 35%;
    width: 1000px;
    margin-top: 12px;
    gap: 15px;
-   border: solid red;
 }
 
 .local{
@@ -80,7 +79,6 @@ margin: 35%;
     width: 30%;
     height: 35px;
     border-radius: 10px;
-    border: solid red;
 }
 
 .botao2:hover{
