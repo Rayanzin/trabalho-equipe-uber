@@ -6,7 +6,10 @@ header{
 #nav-principal{
     width: 100%;
     background-color: black;
+    display: flex;
+    /* gap: 45%; */
 }
+
 #nav-principal>ul{
     display: flex;
     list-style: none;
@@ -21,9 +24,14 @@ header{
     text-decoration: none;
     color: white;
 }
-#ulgap{
+.ulgap{
     gap: 10px;
 }
+#ul-right{
+    margin-inline-start: auto;
+    margin-right: 50px;
+}
+
 #logo{
     width: 50px;
     height: 30px;
@@ -45,9 +53,7 @@ header{
     background-color: gray;
     transition: .5s;
 }
-#pt-br{
-    margin-left: 32%;
-}
+
 .cadastre-se{
     background-color: white;
     border-radius: 30px;
@@ -59,12 +65,16 @@ header{
     display: flex;
     margin-top: 80px;
 }
-#head>img{
+#head>div{
     width: 558px;
-    height: 558px;
+    height:558px;
 }
+#head img{
+    width: 100%;
+}
+
 form{
-    width: 50%;
+    width: 47%;
     padding: 60px;
     color: white;
 }
