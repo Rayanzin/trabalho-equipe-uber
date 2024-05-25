@@ -71,9 +71,9 @@ margin: 35%;
    gap: 15px;
 }
 
-.local{
+/* .local{
 
-}
+} */
 
 .botao2{
     width: 30%;
@@ -88,4 +88,7 @@ margin: 35%;
 }
 .gap{
     gap: 9%;
+}
+.ul-footer > li{
+    margin-bottom: 15px;
 }
