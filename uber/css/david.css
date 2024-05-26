@@ -1,0 +1,54 @@
+
+.img1 {
+    grid-column-gap: 100px;
+    display: flex;
+    padding: 0px 110px;
+    margin-top: 50px;
+
+}
+
+.legenda {
+    width: 459px;
+    height: 256px;
+    font-size: 22px;
+    align-items: center;
+}
+
+.img2 {
+    grid-column-gap: 100px;
+    flex-direction: row-reverse ;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 100px;
+    padding: 0px 110px;
+    margin-top: 100px;
+    
+}
+
+.legenda2 {
+    width: 459px;
+    height: 256px;
+    font-size: 22px;
+    align-items: center;
+}
+
+.botao {
+    border-radius: 8px;
+    width: 140px;
+    height: 48px;
+    background:#000000;
+    color: #FFFFFF;
+    margin: 12px 0px 0px;
+    font: 20px Arial;
+    padding: 10px 10px;
+}
+
+.pergunta{
+    display: flex;
+    gap: 30px;
+}
+
+.linha{
+  padding: 20px 0px;
+  
+}
