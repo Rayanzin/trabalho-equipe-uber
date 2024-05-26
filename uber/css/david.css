@@ -8,7 +8,7 @@
 }
 
 .legenda {
-    width: 459px;
+    width: 475px;
     height: 256px;
     font-size: 22px;
     align-items: center;
@@ -32,7 +32,7 @@
     align-items: center;
 }
 
-.botao {
+.click {
     border-radius: 8px;
     width: 140px;
     height: 48px;
@@ -49,6 +49,7 @@
 }
 
 .linha{
-  padding: 20px 0px;
+  padding: 20px 0px 0px 0px;
+  border-bottom: 1px solid black;
   
 }
