@@ -6,15 +6,15 @@ img{
     width: 100%;
 }
 h1{
-    font-size: 54px;
-    font-weight: 700;
+    font-size: 44px;
+    font-weight: 600;
     line-height: 44px;
     width: 100%;
     display: block;
     text-align: left;   
 }
-p{
-    font-size: 16px;
+h2{
+    font-size: 14px;
     line-height: 24px;
     font-weight: normal;
     text-align: left;
@@ -22,15 +22,52 @@ p{
     display: block;
 
 }
+h3{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    color: #000000;
+    display: block;
+    unicode-bidi: isolate;
+}
 button{
-font-size: 16px;
+font-size: 15px;
 font-weight: 550;
 border-radius: 10px;
-border-bottom: 20px;
+border-bottom: 10px;
 line-height: 50px;
 color: #ffffff;
 background-color: #000000;
 }
-h2{
-
+.qrcode{
+    height: 10%;
+    width: 15%;
+}
+.qrcode img{
+    height: 150px;
+    width: 150px;
+}
+.qrcode2 img{
+    height: 150px;
+    width: 150px;
+}
+.qrcode2{
+    width: 15%;
+    height: 10%;
+}
+h4,h5{
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+    line-height: 32px;
+    width: 100%;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
 }
