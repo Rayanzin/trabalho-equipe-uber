@@ -3,13 +3,19 @@
     display: flex;
     margin-top: 50px;
     justify-content: center;
-    gap: 120PX;
+    gap: 120px;
+    align-items: center;
 }
 
 .legenda {
     width: 475px;
     height: 256px;
-    font-size: 22px;
+    font-size: 16px;
+    justify-content: center;
+}
+.legenda h1{
+    font-weight: bolder;
+    font-size: 2.1em;
 }
 
 .img2 {
@@ -23,11 +29,11 @@
     align-items: center;
 }
 
-.legenda2 {
+/* .legenda2 {
     width: 475px;
     height: 256px;
     font-size: 22px;
-}
+} */
 
 .click {
     border-radius: 8px;
@@ -48,4 +54,34 @@
 .linha{
   padding: 20px 0px 0px 0px;
   border-bottom: 1px solid black;
+}
+@media screen and (max-width:1135px) {
+    
+    .img1, .img2{
+        flex-direction: column-reverse;
+        align-items: normal;
+        padding-left: 30px;
+        gap: 50px;
+    }
+    .img1>div, .img2>div{
+        margin: auto;
+        width: 92%;
+        height: 90%;
+    }
+    .img1>div>img, .img2>div>img{
+        width: 100%;
+    }
+    .legenda{
+        width: 80%;
+        margin: 0;
+    }
+    .legenda h1{
+        font-size: 2.4em;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .legenda h1{
+        font-size: 2em;
+    }
 }

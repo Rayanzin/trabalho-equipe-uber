@@ -140,9 +140,6 @@ form button:hover {
     background-color: rgb(234, 234, 234);
     transition: .5s;
 }
-#svg-seta{
-    color: red;
-}
 
 
 @media screen and (max-width:1135px) {
