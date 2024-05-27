@@ -65,6 +65,7 @@ margin-bottom: 30px;
     display: flex;
 }
 .botao{
+    margin-right: 100px;
     width: 50px;
     height: 50px;
     border-radius: 10px;
@@ -80,9 +81,10 @@ margin-bottom: 30px;
 margin: 35%;
 }
 #localizacao{
-   width: 1000px;
+   /* width: 1000px; */
    margin-top: 10px;
    gap: 15px;
+   display: flex;
 }
 .local{
     color: white;
@@ -104,7 +106,6 @@ margin: 35%;
     align-items: center;
     justify-content: center;
     display: inline-block;
-    
 }
 #app{
     display: flex;
@@ -117,14 +118,21 @@ margin: 35%;
     margin-top: 210px;
     display:flex;
 }
+#direitos{
+    margin-top: -150px;
+}
 #direitos p{
     color: gray;
     font-size: 12px;
 }
 #termos{
-    display: grid;
+    display: flex;
+    margin-inline-start: auto;
+    gap: 50px;
+    margin-top: -150px;
+    /* display: grid;
     row-gap: 16px;
-    grid-column: 1/-1;
+    grid-column: 1/-1; */
 }
 #termos p{
     font-size: 12px;
@@ -140,7 +148,63 @@ margin: 35%;
 @media screen and (max-width:1135px) {
     .menu{
         display: block;
+        
     }
-    .menu
-    
-}
+    .menu>div{
+        margin-bottom: 20px;
+        
+    }
+    .menu>div>ul{
+        margin-right: 120px;
+    }
+    .menu .ul-footer>h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #marca-servicos{
+        display: block;
+        width: 500px;
+    }
+        /* #comeco{
+            flex-direction: column;
+        } */
+        .botao{
+            margin-right: 100px;
+        }
+        #localizacao{
+            flex-direction: column;
+        }
+        .local{
+            display: inline;
+            margin: 0px;
+            width: 150px;
+            text-align: left;
+        }
+        #rodape{
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        #direitos{
+            margin: 0px;
+        }
+        #termos{
+            display: flex;
+            gap: 50px;
+            margin-bottom: 80px;
+            margin: 0px;
+        }
+
+    }
+    @media screen and (max-width:600px){
+       
+        .menu>div{
+         display: block;
+        } 
+        .menu>div>ul{
+            margin-bottom: 50px;
+        }
+        .botao{
+            margin-right: 50px;
+        }
+    }
