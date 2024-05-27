@@ -18,10 +18,10 @@
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
         }
-        html{
+
+        html {
             width: 100vw;
         }
-        
     </style>
 </head>
 
@@ -78,9 +78,12 @@
                 <li id="ajuda" class="lihover"><a href="#">Ajuda</a></li>
                 <li class="lihover"><a href="#">Fazer Login</a></li>
                 <li class="cadastre-se"><a id="cadastre-se" href="#">Cadastre-se</a></li>
-                <li id="hamburgui" class="lihover"> 
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M2 6h20v3H2V6Z" fill="currentColor"></path>,<path d="M2 15h20v3H2v-3Z" fill="currentColor"></path></svg>
-                 </li>
+                <li id="hamburgui" class="lihover">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                        <path d="M2 6h20v3H2V6Z" fill="currentColor"></path>,<path d="M2 15h20v3H2v-3Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </li>
             </ul>
         </nav>
         <div id="head">
@@ -95,7 +98,7 @@
             <div><img src="imgs/img-uber1.webp" alt=""></div>
         </div>
     </header>
-    
+
     <!-- section 1 -->
     <section class="img1">
         <div>
@@ -147,6 +150,13 @@
 
     <footer>
         <section id="comeco">
+            <div id="help">
+                <a href="#">
+                    <p class="paragrafo">
+                        Acesse a Central de Ajuda
+                    </p>
+                </a>
+            </div>
             <div id="marca-servicos">
                 <div class="icon-footer">
                     <a href="#">
@@ -162,47 +172,45 @@
                     </a>
                 </div>
             </div>
-            <div id="help">
-                <a href="#">
-                    <p class="paragrafo">
-                        Acesse a Central de Ajuda
-                    </p>
-                </a>
-            </div>
+
         </section>
         <section class="menu gap">
-            <ul class="ul-footer">
-                <h2>Empresa</h2>
-                <li><a class="titulo" href="#">Quem somos</a></li>
-                <li><a class="titulo" href="#">O que oferecemos</a></li>
-                <li><a class="titulo" href="#">Newsroom</a></li>
-                <li><a class="titulo" href="#">Investidores</a></li>
-                <li><a class="titulo" href="#">Blog</a></li>
-                <li><a class="titulo" href="#">Carreiras</a></li>
-                <li><a class="titulo" href="#">AI</a></li>
-                <li><a class="titulo" href="#">Gift cards</a></li>
-            </ul>
-            <ul class="ul-footer">
-                <h2>Produtos</h2>
-                <li><a class="titulo" href="#">Viajar</a></li>
-                <li><a class="titulo" href="#">Dirigir</a></li>
-                <li><a class="titulo" href="#">Fazer entregas</a></li>
-                <li><a class="titulo" href="#">Faça um pedido</a></li>
-                <li><a class="titulo" href="#">Uber para Empresas</a></li>
-                <li><a class="titulo" href="#">Uber Freight</a></li>
-            </ul>
-            <ul class="ul-footer">
-                <h2>Cidadania global</h2>
-                <li><a class="titulo" href="#">Segurança</a></li>
-                <li><a class="titulo" href="#">Diversidade e inclusão</a></li>
-                <li><a class="titulo" href="#">Sustentabilidade</a></li>
-            </ul>
-            <ul class="ul-footer">
-                <h2>Viaje</h2>
-                <li><a class="titulo" href="#">Reservar</a></li>
-                <li><a class="titulo" href="#">Aeroportos</a></li>
-                <li><a class="titulo" href="#">Cidades</a></li>
-            </ul>
+            <div>
+                <ul class="ul-footer">
+                    <h2>Empresa</h2>
+                    <li><a class="titulo" href="#">Quem somos</a></li>
+                    <li><a class="titulo" href="#">O que oferecemos</a></li>
+                    <li><a class="titulo" href="#">Newsroom</a></li>
+                    <li><a class="titulo" href="#">Investidores</a></li>
+                    <li><a class="titulo" href="#">Blog</a></li>
+                    <li><a class="titulo" href="#">Carreiras</a></li>
+                    <li><a class="titulo" href="#">AI</a></li>
+                    <li><a class="titulo" href="#">Gift cards</a></li>
+                </ul>
+                <ul class="ul-footer">
+                    <h2>Produtos</h2>
+                    <li><a class="titulo" href="#">Viajar</a></li>
+                    <li><a class="titulo" href="#">Dirigir</a></li>
+                    <li><a class="titulo" href="#">Fazer entregas</a></li>
+                    <li><a class="titulo" href="#">Faça um pedido</a></li>
+                    <li><a class="titulo" href="#">Uber para Empresas</a></li>
+                    <li><a class="titulo" href="#">Uber Freight</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="ul-footer">
+                    <h2>Cidadania global</h2>
+                    <li><a class="titulo" href="#">Segurança</a></li>
+                    <li><a class="titulo" href="#">Diversidade e inclusão</a></li>
+                    <li><a class="titulo" href="#">Sustentabilidade</a></li>
+                </ul>
+                <ul class="ul-footer">
+                    <h2>Viaje</h2>
+                    <li><a class="titulo" href="#">Reservar</a></li>
+                    <li><a class="titulo" href="#">Aeroportos</a></li>
+                    <li><a class="titulo" href="#">Cidades</a></li>
+                </ul>
+            </div>
         </section>
 
         <div id="usabilidade">
@@ -261,14 +269,24 @@
             <div id="localizacao">
                 <button class="local" type="button">
                     <div class="banner gap">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><title>Globe</title><path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z" fill="currentColor"></path></svg>          
-                    </div>  
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <title>Globe</title>
+                            <path
+                                d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
                     Português(Brasil)
                 </button>
-                
-                <button class="local"  type="button">
+
+                <button class="local" type="button">
                     <div class="banner gap">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><title>Location marker</title><path d="M18.7 3.8C15 .1 9 .1 5.3 3.8c-3.7 3.7-3.7 9.8 0 13.5L12 24l6.7-6.8c3.7-3.6 3.7-9.7 0-13.4ZM12 12.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Z" fill="currentColor"></path></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <title>Location marker</title>
+                            <path
+                                d="M18.7 3.8C15 .1 9 .1 5.3 3.8c-3.7 3.7-3.7 9.8 0 13.5L12 24l6.7-6.8c3.7-3.6 3.7-9.7 0-13.4ZM12 12.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Z"
+                                fill="currentColor"></path>
+                        </svg>
                     </div>
                     Fortaleza
                 </button>
@@ -276,10 +294,14 @@
             <div>
                 <div id="app">
                     <a href="#">
-                    <img class="app-download" src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg" alt="Baixe o app da Uber para Android" role="presentation" aria-hidden="true">                        
+                        <img class="app-download"
+                            src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg"
+                            alt="Baixe o app da Uber para Android" role="presentation" aria-hidden="true">
                     </a>
                     <a href="#">
-                        <img class="app-download" src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg" alt="Baixe o app da Uber para iOS" role="presentation" aria-hidden="true">
+                        <img class="app-download"
+                            src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg"
+                            alt="Baixe o app da Uber para iOS" role="presentation" aria-hidden="true">
                     </a>
                 </div>
             </div>
