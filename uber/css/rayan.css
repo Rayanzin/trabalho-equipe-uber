@@ -1,99 +1,130 @@
 @charset "utf-8";
 
-header{
+header {
     background-color: black;
+    /* height: 95vh; */
+    padding-bottom: 80px;
 }
-#nav-principal{
+
+#nav-principal {
+    margin: auto;
     width: 100%;
     background-color: black;
     display: flex;
     /* gap: 45%; */
+    padding: 5px;
 }
 
-#nav-principal>ul{
+#nav-principal>ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
-#nav-principal> ul > li{
+
+#nav-principal>ul>li {
     padding: 10px;
     color: white;
     font-size: 0.9em;
 }
-#nav-principal>ul>li>a{
+
+#nav-principal>ul>li>a {
     text-decoration: none;
     color: white;
 }
-.ulgap{
+
+.ulgap {
     gap: 10px;
-}
-#ul-right{
-    margin-inline-start: auto;
-    margin-right: 50px;
+    margin: auto;
 }
 
-#logo{
+/* #ul-right{
+    margin: auto;
+    margin-inline-start: auto;
+    margin-right: 50px;
+} */
+
+#logo {
     width: 50px;
     height: 30px;
     display: inline;
 }
-#dropdownbg{
+
+#dropdownbg {
     background-color: black;
     border: none;
     border-radius: 30px;
 }
-#dropdownbg:hover{
+
+#dropdownbg:hover {
     background-color: gray;
 }
 
-.lihover{
+.lihover {
     border-radius: 30px;
 }
-.lihover:hover{
+
+.lihover:hover {
     background-color: gray;
     transition: .5s;
 }
 
-.cadastre-se{
+.cadastre-se {
     background-color: white;
     border-radius: 30px;
-}
-#cadastre-se{
-    color: black !important;
-}
-#head{
-    display: flex;
-    margin-top: 80px;
-}
-#head>div{
-    width: 558px;
-    height:558px;
-}
-#head img{
-    width: 100%;
+    cursor: pointer;
 }
 
-form{
-    width: 47%;
+#cadastre-se {
+    color: black !important;
+}
+#hamburgui{
+    display: none;
+}
+
+#head {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+}
+
+#head>div {
+    width: 558px;
+    height: 680px;
+}
+
+#head img {
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    width: 650px;
     padding: 60px;
     color: white;
 }
-form h2{
+
+form h2 {
     font-size: 52px;
     font-weight: bold;
-    width: 390px;
+    /* width: 390px; */
     margin-bottom: 20px;
 }
 
-form input{
+form input {
     display: block;
-    width: 80%;
-    padding:12px 12px 12px 36px;
+    /* width: 80%; */
+    width: 400px;
+    height: 45px;
+    padding: 12px 12px 12px 36px;
     border-radius: 10px;
     border: none;
     margin-bottom: 15px;
 }
-form button{
+
+form button {
     padding: 12px;
     color: black;
     background-color: white;
@@ -101,8 +132,65 @@ form button{
     border-radius: 10px;
     width: 25%;
     font-weight: 500;
+    margin-top: 10px;
+
 }
-form button:hover{
+
+form button:hover {
     background-color: rgb(234, 234, 234);
     transition: .5s;
+}
+
+
+@media screen and (max-width:1135px) {
+    #viajar,
+    #dirigir,
+    #empresa,
+    #sobre,
+    #pt-br,
+    #ajuda {
+        display: none;
+    }
+    .ulgap{
+        margin: 0;
+    }
+    #ul-right{
+        margin-inline-start: auto;
+    }
+    #hamburgui{
+        display: block;
+    }
+   
+    #head{
+        display: block;  
+        margin-top: 0;
+        margin-right: 0;
+    }
+    #head > div{
+        margin: auto;
+        width: 92%;
+        height: 90%;
+    }
+    form{
+        width: 100vw;
+        padding: 60px 30px 30px 30px;
+    }
+    form h2{
+        font-size: 48px;
+    }
+    #head  button{
+        width: 150px;
+        height: 50px;
+    }
+    #hamburgui{
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    form h2{
+        font-size: 2.2em;
+    } 
+    form input{
+        width: 100%;
+    }
 }
