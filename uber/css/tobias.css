@@ -1,6 +1,6 @@
 footer{
     padding:120px 120px;
-    background-color: black;
+    background-color: #000000fe;
     font-family: Arial, Helvetica, sans-serif;
 }
 footer a{
@@ -14,6 +14,7 @@ footer ul{
     padding: 34px 34px;
 }
 #marca-servicos{
+    font-size: 24px;
     gap: 80%;
     display: flex;
 }
@@ -43,9 +44,11 @@ margin-bottom: 30px;
 }
     
 #usabilidade{
-    display: flex;
-    gap: 20%;
-}
+    display: grid;
+    grid-column-gap: 36px;
+    grid-row-gap: 36px;
+    }
+
 #socialmedia{
     display: flex;
 }
@@ -65,26 +68,56 @@ margin-bottom: 30px;
 margin: 35%;
 }
 #localizacao{
-   display: flex;
    width: 1000px;
-   margin-top: 12px;
+   margin-top: 10px;
    gap: 15px;
 }
+.local{
+    color: white;
+    background-color: #000000fe;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
 
-/* .local{
-
-} */
-
-.botao2{
-    width: 30%;
-    height: 35px;
-    border-radius: 10px;
 }
-
-.botao2:hover{
-    cursor: pointer;
+.local:hover{
     background-color: rgba(105, 105, 105, 0.915);
     transition: .5s;
+}
+.banner{
+    margin: 4px 2px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    
+}
+#app{
+    display: flex;
+}
+.app-download{
+    min-width: 128px;
+    margin: 4px;
+}
+#rodape{
+    margin-top: 210px;
+    display:flex;
+}
+#direitos p{
+    color: gray;
+    font-size: 12px;
+}
+#termos{
+    display: grid;
+    row-gap: 16px;
+    grid-column: 1/-1;
+}
+#termos p{
+    font-size: 12px;
+    color:gray;
+   
 }
 .gap{
     gap: 9%;
